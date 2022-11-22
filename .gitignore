@@ -1,0 +1,4 @@
+/backend/.env
+/backend/node_modules
+/instagram-clone-2/node_modules
+/backend/build

@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    font-family: 'Poppins';
+}
+
+@layer components{
+    .authInput{
+        @apply bg-stone-100 font-medium placeholder:font-normal outline-none focus:border-zinc-900 rounded-md border-transparent border-2 px-3 py-2 
+    }
+    .authButton{
+        @apply flex justify-center font-bold rounded-md px-3 py-2 transition-all duration-150;
+    }
+}
